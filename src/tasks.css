@@ -1,0 +1,24 @@
+.todo-app-tasks {
+  display: grid;
+  grid-template-columns: 50px 2fr 100px 1fr 1fr;
+  border: 1px solid #eee;
+}
+
+.status,
+.task,
+.author,
+.date,
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.status {
+  justify-content: center;
+}
+
+.status.cursor-pointer, .actions {
+  cursor: pointer;
+}
